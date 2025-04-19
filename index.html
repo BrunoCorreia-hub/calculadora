@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="caixa-calculadora">
+        <input class="input" id="valores"/>
+        <button class="limpar" onclick="limparInput()">CE</button>
+        <button class="sinal" onclick="calcular('/')">/</button>
+        <button class="sinal" onclick="calcular('*')">*</button>
+        <button class="sinal" onclick="calcular('-')">-</button>
+        <button class="numero" onclick={calcular(7)}>7</button>
+        <button class="numero" onclick={calcular(8)}>8</button>
+        <button class="numero" onclick={calcular(9)}>9</button>
+        <button class="sinal" onclick="calcular('+')">+</button>
+        <button class="numero" onclick={calcular(4)}>4</button>
+        <button class="numero" onclick={calcular(5)}>5</button>
+        <button class="numero" onclick={calcular(6)}>6</button>
+        <button class="sinal" onclick="calcular('.')">.</button>
+        <button class="numero" onclick={calcular(1)}>1</button>
+        <button class="numero" onclick={calcular(2)}>2</button>
+        <button class="numero" onclick={calcular(3)}>3</button>
+        <button class="igual" onclick="soma()">=</button>
+        <button class="numero-zero" onclick={calcular(0)}>0</button>
+        <button class="virgula" onclick="calcular(',')">,</button>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
